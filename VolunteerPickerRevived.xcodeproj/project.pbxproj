@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B563D4AC2D0606B20018E454 /* 	BootcampVolunteerPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563D4AB2D0606AA0018E454 /* 	BootcampVolunteerPickerApp.swift */; };
+		B563D4AE2D0606D60018E454 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563D4AD2D0606CE0018E454 /* MainWindow.swift */; };
+		B563D4B02D0606E90018E454 /* NameEntryWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563D4AF2D0606E20018E454 /* NameEntryWindow.swift */; };
+		B563D4B22D0609230018E454 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B563D4B12D06091B0018E454 /* AppData.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B563D48F2D06066F0018E454 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		B563D47D2D06066A0018E454 /* VolunteerPickerRevived.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolunteerPickerRevived.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563D48E2D06066F0018E454 /* VolunteerPickerRevivedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolunteerPickerRevivedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B563D4982D06066F0018E454 /* VolunteerPickerRevivedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolunteerPickerRevivedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B563D4AB2D0606AA0018E454 /* 	BootcampVolunteerPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\tBootcampVolunteerPickerApp.swift"; sourceTree = "<group>"; };
+		B563D4AD2D0606CE0018E454 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		B563D4AF2D0606E20018E454 /* NameEntryWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEntryWindow.swift; sourceTree = "<group>"; };
+		B563D4B12D06091B0018E454 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,10 @@
 		B563D4742D06066A0018E454 = {
 			isa = PBXGroup;
 			children = (
+				B563D4AB2D0606AA0018E454 /* 	BootcampVolunteerPickerApp.swift */,
+				B563D4AD2D0606CE0018E454 /* MainWindow.swift */,
+				B563D4B12D06091B0018E454 /* AppData.swift */,
+				B563D4AF2D0606E20018E454 /* NameEntryWindow.swift */,
 				B563D47F2D06066A0018E454 /* VolunteerPickerRevived */,
 				B563D4912D06066F0018E454 /* VolunteerPickerRevivedTests */,
 				B563D49B2D06066F0018E454 /* VolunteerPickerRevivedUITests */,
@@ -175,6 +190,7 @@
 				TargetAttributes = {
 					B563D47C2D06066A0018E454 = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 					B563D48D2D06066F0018E454 = {
 						CreatedOnToolsVersion = 16.1;
@@ -236,6 +252,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B563D4B02D0606E90018E454 /* NameEntryWindow.swift in Sources */,
+				B563D4AE2D0606D60018E454 /* MainWindow.swift in Sources */,
+				B563D4AC2D0606B20018E454 /* 	BootcampVolunteerPickerApp.swift in Sources */,
+				B563D4B22D0609230018E454 /* AppData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = VolunteerPickerRevived/VolunteerPickerRevived.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -410,6 +431,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Onboarding.VolunteerPickerRevived;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -419,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = VolunteerPickerRevived/VolunteerPickerRevived.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
